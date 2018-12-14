@@ -1,8 +1,72 @@
 html,body {
     background-image: linear-gradient(45deg, #55253F 0%, #30183C 100%);
     height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .whiteBoard {
+    background: #FFFFFF;
+    box-shadow: 1px 12px 16px 0 rgba(0,0,0,0.50);
+    border-radius: 15px;
+    height: 50rem;
+    width: 400rem;
+    margin: 10rem 10rem;
     
+}
+
+.innerComponents {
+    padding-top: 10rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-bottom: 3rem;
+    height: 50rem;
+
+}
+
+.playerName {
+    font-family: NunitoSans-Bold;
+    font-size: 1.5rem;
+    color: #421F3E;
+    letter-spacing: 11.3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.liveScore {
+    font-size: 7rem;
+    font-weight: 900;
+}
+.greyScore {
+    font-family: NunitoSans-Bold;
+    font-size: 1.5rem;
+    color: #CDCACE;
+}
+
+.currentScore {
+    font-size: 2rem;
+}
+
+.rollDice{
+    width: 10rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    border: 1px solid #421F3E;
+    color: #421F3E;
+    font-size: 1.5rem;
+}
+
+.holdDice{
+    width: 10rem;
+    height: 5rem;
+    background-image: linear-gradient(-135deg, #53243F 0%, #421F3E 100%);
+    box-shadow: 1px 0px 15px 0 rgba(0, 0, 0, 0.105);
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+}
+.liveScore,.playerName {
+    color: #421F3E;
 }
