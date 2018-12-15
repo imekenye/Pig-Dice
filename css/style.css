@@ -56,6 +56,10 @@ html,body {
     color: #421F3E;
     font-size: 1.5rem;
 }
+.rollDice:hover {
+    cursor: pointer;
+    outline: none;
+}
 
 .holdDice{
     width: 10rem;
@@ -69,4 +73,31 @@ html,body {
 }
 .liveScore,.playerName {
     color: #421F3E;
+}
+.active {
+    background-image: url('/img/pig face.png');
+    background-repeat: no-repeat;
+    margin-left: 5rem;
+    margin-top: 0rem;
+}
+.playerActive {
+    height: 13rem;
+}
+
+.diceHeight {
+    height: 15rem;
+    margin-top: 5rem;
+}
+.btn-new {
+    margin-top: 2rem;
+    margin-right: 7rem;
+    color: #30183C;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 15rem;;
+    width: 15rem;
+}
+
+.btn-new:hover {
+    cursor: pointer;
 }
