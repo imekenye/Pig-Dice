@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -16,27 +17,32 @@
                 <div class="innerComponents d-flex justify-content-center justify-content-between">
                     
                     <div class="leftSide flex-column text-center">
-                        <p class="playerName" id="player-1">player one</p>
-                        <p class="liveScore" id="score-1">001</p>
-                        <img src="img/pig face.png" class="p-3" alt="">
+                        <div class="playerName" id="player-0">player one</div>
+                        <div class="liveScore" id="score-0">43</div>
+                        <!-- <img src="img/pig face.png" class="p-3" alt=""> -->
+                        <div class="playerActive playerActive-0 active"></div>
                         <div class="lowerScore">
-                            <p class="greyScore text-left pt-5">Current Score</p>
-                            <p class="currentScore text-left" id="current-1">2</p>
+                            <p class="greyScore text-left">Current Score</p>
+                            <div class="currentScore text-left" id="current-0">2</div>
                         </div>
                     </div>
 
                     <div class="midSide">
-                        <img src="img/dice5.png" alt="" class="mb-5" height="130"><br>
-                        <button class="rollDice ml-3">ROLL</button><br>
-                        <button class="holdDice ml-3">HOLD</button>
+                        <div class="diceHeight">
+                            <img src="img/dice-1.png" alt="" class="mb-5 dice" height="100"><br>
+                        </div>
+                        <button class="rollDice mx-auto"><i class="fas fa-dice mr-3"></i>ROLL</button><br>
+                        <button class="holdDice mx-auto"><i class="fas fa-hand-paper mr-3"></i>HOLD</button><br>
+                        <div class="btn-new"><i class="fas fa-plus-circle mr-3"></i>New Game</div>
                     </div>
 
                     <div class="rightSide text-center">
-                            <p class="playerName" id="player-2">player two</p>
-                            <p class="liveScore" id="score-2">097</p>
-                            <img src="img/pig face.png" alt="" class="p-3">
-                            <p class=" greyScore text-right pt-5">Current Score</p>
-                            <p class="currentScore text-right" id="current-2">0</p>
+                            <div class="playerName" id="player-1">player two</div>
+                            <div class="liveScore" id="score-1">34</div>
+                            <!-- <img src="img/pig face.png" alt="" class="p-3"> -->
+                            <div class="playerActive playerActive-1"></div>
+                            <p class=" greyScore text-right">Current Score</p>
+                            <p class="currentScore text-right" id="current-1">0</p>
                         </div>
 
                 </div>
