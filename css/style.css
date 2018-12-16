@@ -75,7 +75,7 @@ html,body {
     color: #421F3E;
 }
 .active {
-    background-image: url('img/pig face.png');
+    background-image: url('/src/img/pig face.png');
     background-repeat: no-repeat;
     margin-left: 5rem;
     margin-top: 0rem;
