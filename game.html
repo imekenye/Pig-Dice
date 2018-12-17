@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Pig Dice</title>
+</head>
+<body>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="whiteBoard">
+                <div class="innerComponents d-flex justify-content-center justify-content-between">
+                    
+                    <div class="leftSide flex-column text-center">
+                        <div class="playerName" id="player-0">player one</div>
+                        <div class="liveScore" id="score-0">43</div>
+                        <div class="playerActive playerActive-0 active"></div>
+                        <div class="lowerScore">
+                            <p class="greyScore text-left">Current Score</p>
+                            <div class="currentScore text-left" id="current-0">2</div>
+                        </div>
+                    </div>
+
+                    <div class="midSide">
+                        <div class="error1">You rolled 1!!</div>
+                        <div class="diceHeight">
+                            <img src="img/dice-1.png" alt="" class="mb-5 dice" height="95"><br>
+                        </div>
+                        <button class="rollDice mx-auto"><i class="fas fa-dice mr-3"></i>ROLL</button><br>
+                        <button class="holdDice mx-auto"><i class="fas fa-hand-paper mr-3"></i>HOLD</button><br>
+                        <div class="btn-new"><i class="fas fa-plus-circle mr-3"></i>New Game</div>
+                    </div>
+
+                    <div class="rightSide text-center">
+                            <div class="playerName" id="player-1">player two</div>
+                            <div class="liveScore" id="score-1">34</div>
+                            <div class="playerActive playerActive-1"></div>
+                            <p class=" greyScore text-right">Current Score</p>
+                            <p class="currentScore text-right" id="current-1">0</p>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
