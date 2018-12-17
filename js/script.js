@@ -4,6 +4,10 @@ $(function(){
 
 init();
 
+// ********************************************
+// USER INTERFACE LOGIC
+// ********************************************
+
 $('.rollDice').click(function() {
     if(gamePlaying) {
         //1.Random number
@@ -44,6 +48,13 @@ $('.holdDice').click(function(){
         }
     }    
 });
+
+
+
+// ********************************************
+// BUSINESS LOGIC
+// ********************************************
+
 
 function nextPlayer(){
     if(activePlayer === 0) {
