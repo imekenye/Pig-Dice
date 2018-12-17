@@ -101,6 +101,87 @@ html,body {
 .btn-new:hover {
     cursor: pointer;
 }
+.logo {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+button.btn-primary {
+    background-color: transparent;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+
+button.btn-primary:hover {
+    background-color: #53243F !important;
+    outline: none;
+    border: none;
+    border-color: transparent !important;
+}
+
+button.btn-primary:active,
+button.btn-primary:focus {
+    outline: none;
+    border: none;
+}
+.modal-body {
+    font-size: 1.2rem;
+}
+button.btn-secondary {
+    background-color: #421F3E;
+}
+button.btn-secondary:hover {
+    background-color: #30183C;
+}
+
+
+.rowTwo {
+    height: 100vh;
+}
+.p-input {
+    height: 7rem;
+    width: 40rem;
+    font-weight: 200;
+    font-size: 1.6rem;
+    background-color: #53243F;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+}
+.playerInput1 {
+    border-bottom: 0;
+    border-radius: 1rem 1rem 0 0;
+}
+.playerInput2 {
+    border-radius: 0 0 1rem 1rem;
+}
+input {
+    color: white;
+}
+input:focus {
+    outline: none;
+}
+
+.submitBtn {
+    height: 4rem;
+    width: 20%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.288);
+    font-size: 1.5rem;
+    transition: all 0.3s ease 0s;
+}
+.submitBtn a {
+    text-decoration: none;
+    color: white;
+}
+
+.submitBtn:hover {
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+    cursor: pointer;
+}
 
 
 @media (max-width: 576px) {
