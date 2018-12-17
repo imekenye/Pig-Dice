@@ -26,6 +26,7 @@ $('.rollDice').click(function() {
        $('#current-' + activePlayer).text(roundScore);
    } else {
        //Next player
+       alert('Sorry rolled 1!!!!')
        nextPlayer();
    }
     }
@@ -92,4 +93,7 @@ function init() {
 };
 });
 
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
 
