@@ -11,7 +11,6 @@ $('.rollDice').click(function() {
 
    //2. Display the result
 
-//    var diceDom = $('.dice');
    $('.dice').css('display','block');
    $('.dice').attr('src','img/dice-' + dice + '.png');
 //    diceDom.src = 'img/dice-' + dice + '.png';
