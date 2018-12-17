@@ -101,3 +101,13 @@ html,body {
 .btn-new:hover {
     cursor: pointer;
 }
+
+
+@media (max-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+    .whiteBoard{
+        margin: 0;
+    }
+  }
