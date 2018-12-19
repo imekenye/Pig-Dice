@@ -21,7 +21,8 @@ A web aplication that allows player to play a game of pig dice.The game rules ar
 | Repeat for Player 2 | Roll = 1 | Round total = 0 / Total score = 0 / Player 1 begins |
 | When a player's total score reaches 100 or more, game ends and winner page shows | Player 1 total score = 100	| Winner page |
                     
-
+## Link to the website
+https://imekenye.github.io/Pig-Dice/
 
 ## Known Bugs
 There no bugs but if any you contact me <a href="https://github.com/imekenye/Pig-Dice/issues/new">HERE</a>
